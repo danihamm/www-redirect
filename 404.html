@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Refresh" content="0; url=https://nexlink.website">
     <title>404 Not Found</title>
 
     <style>
@@ -10,9 +11,11 @@
     </style>
 </head>
 <body>
-    <h2>Not Found</h1>
-    <p>Your requested resource was not found on this server. However, it may be available for you at another server. If you are not automatically redirected, you can click <a href="https://www.nexlink.website/">here</a> to return to the home page.</p>
-    
+    <noscript>
+        <h2>Not Found</h1>
+        <p>Your requested resource was not found on this server. However, it may be available for you at another server. If you are not automatically redirected in 5 seconds, you can click <a href="https://www.nexlink.website/">here</a> to return to the home page.</p>    
+    </noscript>
+
     <script>
         const pathName = window.location.pathname;
         const redirectTo = "https://www.nexlink.website" + pathName;
